@@ -14,3 +14,18 @@ a {
     color: #8f71ff;
 }
 
+a:hover {
+    /* color: #82acff; */
+}
+
+/* .link:hover {
+    color: #ff5d9e; 
+} */
+
+.social-icon-bottom {
+    background-color: #8f71ff;
+}
+
+.social-icon-bottom:hover {
+    background-color: black;
+}
