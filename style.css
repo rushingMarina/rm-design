@@ -29,3 +29,13 @@ a:hover {
 .social-icon-bottom:hover {
     background-color: black;
 }
+
+.my-footer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.post-image {
+    padding: 1em;
+}
