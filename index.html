@@ -32,15 +32,12 @@
 
       <div class="dt mw6 center pt3 pb5 pv5-m pv6-ns">
         <div class="db dtc-ns v-mid-ns">
-          <img src="img/kitty.png" alt="A bright blue sky" class="w-100 mw7 w5-ns" />
+          <img data-src="img/kitty.png" alt="cat face" class="lazy w-100 mw7 w5-ns" />
         </div>
         <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
           <h2 class="lh-copy">Kitty Kat.</h2>
           <p class="lh-copy">
             Purrr purr. <a href="img/kitty.png" download><br/>Download</a>  a png of a kitty.
-          </p>
-          <p class="lh-copy">
-            Do you want me to make an illustration of your animal? <a href = "mailto: rushingmarina01@gmail.com"><br/>Send Email:)</a>
           </p>
           <h4 class="date">May 2020</h4>
         </div>
@@ -48,15 +45,25 @@
 
       <div class="dt mw6 center pt3 pb5 pv5-m pv6-ns">
         <div class="db dtc-ns v-mid-ns">
-          <img src="img/portrait3.png" alt="A bright blue sky" class="w-100 mw7 w5-ns" />
+          <img data-src="img/cat_yoga.png" alt="stretching kitty" class="lazy w-100 mw7 w5-ns" />
+        </div>
+        <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
+          <h2 class="lh-copy">Stretching kitty.</h2>
+          <p class="lh-copy">
+            Purrr purr. <a href="img/cat_yoga.png" download><br/>Download</a>  a png of a kitty.
+          </p>
+          <h4 class="date">May 2020</h4>
+        </div>
+      </div>
+
+      <div class="dt mw6 center pt3 pb5 pv5-m pv6-ns">
+        <div class="db dtc-ns v-mid-ns">
+          <img data-src="img/portrait3.png" alt="face" class="lazy w-100 mw7 w5-ns" />
         </div>
         <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
           <h2 class="lh-copy">Minimal portrait.</h2>
           <p class="lh-copy">
-            Hi! I am Marina. I am 22 and I was born and raised in Samara, Russia. Currently I live in San Diego. <a href="img/portrait3.png" download><br/>Download</a>  a png that you see in the left.
-          </p>
-          <p class="lh-copy">
-            Do you want me to make an illustration of you? <a href = "mailto: rushingmarina01@gmail.com"><br/>Send Email:)</a>
+             <a href="img/portrait3.png" download><br/>Download</a> a png of a minial portrait.
           </p>
           <h4 class="date">May 2020</h4>
         </div>
@@ -64,12 +71,12 @@
       
       <div class="dt mw6 center pt3 pb5 pv5-m pv6-ns">
         <div class="db dtc-ns v-mid-ns">
-          <img src="img/avocados.png" alt="A bright blue sky" class="w-100 mw7 w5-ns" />
+          <img data-src="img/avocados.png" alt="avocados" class="lazy w-100 mw7 w5-ns" />
         </div>
         <div class="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
           <h2 class="lh-copy">Avocados pop-art.</h2>
           <p class="lh-copy">
-            I love avocados. Do you? <br/><a href="img/avocados.png" download>Download</a> a png of thses cute avocados
+            <a src="img/avocados.png" download>Download</a> a png of thses cute avocados.
           </p>
           <h4 class="date">May 2020</h4>
         </div>
@@ -86,6 +93,12 @@
           <span class="f6 ml3 pr2">Github</span>
         </a>
         </footer>
-
+        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.1.0/dist/lazyload.min.js"></script>
+        <script>
+              var lazyLoadInstance = new LazyLoad({
+                elements_selector: ".lazy"
+                // ... more custom settings?
+              });
+        </script>
  </body>
 </html>
